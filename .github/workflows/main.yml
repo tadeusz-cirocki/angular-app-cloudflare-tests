@@ -42,4 +42,4 @@ jobs:
       - name: Test
         run: |
           cd wspac-app
-          npm run test
+          npm run test:headless
