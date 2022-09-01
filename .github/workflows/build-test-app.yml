@@ -35,10 +35,6 @@ jobs:
         run: |
           cd wspac-app
           npm ci
-      - name: Build
-        run: |
-          cd wspac-app
-          npm run build
       - name: Test
         run: |
           cd wspac-app
